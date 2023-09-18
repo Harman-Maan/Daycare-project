@@ -1,0 +1,41 @@
+/* For content1 */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+.navbar {
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  /* overflow: hidden; */
+  box-shadow: 0 1px 10px #0000008d;
+}
+
+.hero .slides img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.content1 .row .content-heading {
+  font-family: "Dancing Script", cursive;
+}
+
+.content1 .row {
+  height: 20rem;
+}
+
+.content1 .row div img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.content2 {
+  position: relative;
+}
+
+.content2 .bg-img {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: fit-content;
+}
