@@ -4,8 +4,8 @@ export default function Footer() {
       <div className="row">
         <div className="col-lg">
           <ul>
-            <li className="brand-name">
-              <img src="public/logo/logo.png" alt="Logo" width="30" className="d-inline-block align-text-top img-fluid" /> <span className="">Daycare</span>
+            <li className="brand-name mb-3 me-2">
+              <img src="./logo/logo.png" alt="Logo" width="30" className="d-inline-block align-text-top img-fluid" /> <span className="">Daycare</span>
             </li>
             <li>Designed for mothers to find professional Daycare</li>
             <li>Code licensed by XYZ</li>

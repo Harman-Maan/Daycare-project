@@ -2,8 +2,8 @@ export default function Navbar() {
   return (
     <nav className="navbar fixed-top  navbar-expand-md">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <img src="public/logo/logo.png" alt="Logo" width="30" height="24" className="d-inline-block align-text-top img-fluid" /> Daycare
+        <a className="navbar-brand brand-name" href="#">
+          <img src="./logo/logo.png" alt="Logo" width="30" height="24" className="d-inline-block align-text-top img-fluid" /> <span>Daycare</span>
         </a>
         <button
           className="navbar-toggler"
@@ -17,7 +17,7 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div className="collapse navbar-collapse w-50" id="navbarSupportedContent">
+      <div className="collapse navbar-collapse w-75" id="navbarSupportedContent">
         <ul className="navbar-nav mb-2 mb-lg-0 d-flex ms-auto justify-content-between">
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">
@@ -32,6 +32,22 @@ export default function Navbar() {
           <li className="nav-item">
             <a className="nav-link" href="#">
               Contact us
+            </a>
+          </li>
+          <li>
+            <div className="d-flex me-3  w-100" height="100px">
+              <div className="vr align-self-center"></div>
+            </div>
+          </li>
+          <li>
+            <button type="button" className="btn btn-success">
+              Log in
+            </button>
+          </li>
+
+          <li>
+            <a className="nav-link" href="#">
+              Sign in
             </a>
           </li>
         </ul>

@@ -31,27 +31,14 @@
 }
 
 .content2 {
-  position: relative;
   min-height: 400px;
   padding: 2rem 1rem;
   margin: auto;
+  background-image: linear-gradient(to bottom, #ffffff 0%, #e2ebf0 100%);
 }
 
 .content2 .row {
   width: 100%;
-}
-
-.img-container {
-  position: absolute;
-  z-index: -10;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.content2 .bg-img {
-  margin: auto;
 }
 
 .content2 .card {
@@ -61,7 +48,7 @@
 }
 
 footer {
-  min-sheight: 200px;
+  min-height: 200px;
   color: #fff;
   background-color: #232323;
   padding: 1rem 0.5rem;
@@ -81,7 +68,6 @@ footer ul {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  margin: 0 0.75rem 0.75rem 0;
 }
 
 .brand-name img {
@@ -90,7 +76,13 @@ footer ul {
 }
 
 .brand-name span {
-  color: #fff;
   font-size: 1.2rem;
   font-family: var(--bs-font-sans-serif);
+}
+
+.vertical-hr {
+  rotate: 90deg;
+  border: 1px solid #000;
+  width: 20px;
+  padding: auto;
 }

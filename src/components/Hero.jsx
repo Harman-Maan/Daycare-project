@@ -8,21 +8,21 @@ export default function Hero() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active slides">
-          <img src="public/images/img-3.jpg" className="d-block w-100" alt="..." />
+          <img src="./images/img-3.jpg" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item slides">
-          <img src="public/images/img-2.jpg" className="d-block w-100" alt="..." />
+          <img src="./images/img-2.jpg" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item slides">
-          <img src="public/images/img-1.jpg" className="d-block w-100" alt="..." />
+          <img src="./images/img-1.jpg" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>

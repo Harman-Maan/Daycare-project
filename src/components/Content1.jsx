@@ -8,7 +8,7 @@ export default function Content1() {
         <div className="row g-5">
           <div className="col-sm  m-auto fs-5">Lorem ipsum dolor sit amet consectetur adi fuga cumque autem adipisci rem ut quam neque.</div>
           <div className="col-sm  m-auto">
-            <img src="public/images/img-4.jpg" alt="" />
+            <img src="./images/img-4.jpg" alt="" />
           </div>
         </div>
       </div>
