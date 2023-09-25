@@ -40,13 +40,10 @@ export default function Navbar() {
             </div>
           </li>
           <li>
-            <button type="button" className="btn btn-success">
+            <button type="button" className="btn btn-success d-inline">
               Log in
             </button>
-          </li>
-
-          <li>
-            <a className="nav-link" href="#">
+            <a className="nav-link d-inline" href="#">
               Sign in
             </a>
           </li>
